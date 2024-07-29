@@ -105,7 +105,7 @@ export default function Contact() {
       <div className="border-t-2 border-[#54107c] w-full h-[2px] m-[10px] animate-slideIn "></div>
       <h6
         ref={ref2}
-        className={`w-auto h-auto text-2xl text-[#7315ab] m-[20px] font-edu ${
+        className={`w-auto h-auto text-2xl text-[#7315ab] m-[20px] font-openSans ${
           isVisible2 ? 'animate-fadeIn' : 'opacity-0'
         }`}
       >
@@ -120,7 +120,7 @@ export default function Contact() {
               isVisible3 ? 'animate-fadeIn2' : 'opacity-0'
             }`}
           >
-            <label className="font-edu w-[60px] lg:w-auto h-auto lg:h-auto text-[#7315ab] text-sm lg:text-lg mr-[2px] lg:mr-[10px]">
+            <label className="font-openSans w-[60px] lg:w-auto h-auto lg:h-auto text-[#7315ab] text-sm lg:text-lg mr-[2px] lg:mr-[10px]">
               Name
             </label>
             <input
@@ -128,7 +128,7 @@ export default function Contact() {
               name="name" // Ensure this matches the placeholder in the EmailJS template
               value={person.name}
               onChange={handleInputChange}
-              className="font-edu w-auto h-[20px] lg:h-auto bg-[#181616] hover:border-b-white duration-300 focus:outline-none indent-1 text-white border-b-2 border-[#54107c]"
+              className="font-openSans w-auto h-[20px] lg:h-auto bg-[#181616] hover:border-b-white duration-300 focus:outline-none indent-1 text-white border-b-2 border-[#54107c]"
             />
           </div>
           <div
@@ -137,7 +137,7 @@ export default function Contact() {
               isVisible4 ? 'animate-fadeIn1' : 'opacity-0'
             }`}
           >
-            <label className="font-edu w-[60px] lg:w-auto h-auto lg:h-auto text-[#7315ab] text-sm lg:text-lg mr-[2px] lg:mr-[10px]">
+            <label className="font-openSans w-[60px] lg:w-auto h-auto lg:h-auto text-[#7315ab] text-sm lg:text-lg mr-[2px] lg:mr-[10px]">
               Email
             </label>
             <input
@@ -145,7 +145,7 @@ export default function Contact() {
               name="email" // Ensure this matches the placeholder in the EmailJS template
               value={person.email}
               onChange={handleInputChange}
-              className="font-edu w-auto h-[20px] lg:h-auto bg-[#181616] hover:border-b-white duration-300 focus:outline-none indent-1 text-white border-b-2 border-[#54107c]"
+              className="font-openSans w-auto h-[20px] lg:h-auto bg-[#181616] hover:border-b-white duration-300 focus:outline-none indent-1 text-white border-b-2 border-[#54107c]"
             />
           </div>
           <div
@@ -154,14 +154,14 @@ export default function Contact() {
               isVisible4 ? 'animate-fadeIn3' : 'opacity-0'
             }`}
           >
-            <label className="font-edu w-[60px]  lg:w-auto h-auto lg:h-auto text-[#7315ab] text-sm lg:text-lg mr-[2px] lg:mr-[10px]">
+            <label className="font-openSans w-[60px]  lg:w-auto h-auto lg:h-auto text-[#7315ab] text-sm lg:text-lg mr-[2px] lg:mr-[10px]">
               Message
             </label>
             <input
               name="message"
               value={person.message}
               onChange={handleInputChange}
-              className="font-edu w-auto h-[20px] lg:h-auto bg-[#181616] hover:border-b-white duration-300 focus:outline-none indent-1 text-white border-b-2 border-[#54107c]"
+              className="font-openSans w-auto h-[20px] lg:h-auto bg-[#181616] hover:border-b-white duration-300 focus:outline-none indent-1 text-white border-b-2 border-[#54107c]"
             />
           </div>
           
@@ -174,7 +174,7 @@ export default function Contact() {
           isVisible4 ? 'animate-fadeIn3' : 'opacity-0'
         }`}
       >
-        <button type = "submit" className="font-edu w-[120px] h-[40px] bg-[#181616] border-2 rounded-[8px] hover:text-white hover:bg-[#54107c] duration-300 border-[#54107c] text-[#54107c]">
+        <button type = "submit" className="font-openSans w-[120px] h-[40px] bg-[#181616] border-2 rounded-[8px] hover:text-white hover:bg-[#54107c] duration-300 border-[#54107c] text-[#54107c]">
           Send
         </button>
           </div>

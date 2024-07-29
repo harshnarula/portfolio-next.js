@@ -31,46 +31,46 @@ export default function Techskill() {
       className="flex flex-col lg:flex-row justify-center lg:justify-around items-center w-screen h-auto"
     >
       <div className="hidden lg:flex flex-col justify-start items-start w-auto h-[270px] ">
-        <p className="text-white w-[60px] border-b-2 hover:border-[#54107c] duration-300 text-2xl m-[20px] font-edu">
+        <p className="text-white w-[60px] border-b-2 hover:border-[#54107c] duration-300 text-2xl m-[20px] font-openSans">
           Skills
         </p>
         <div className="flex flex-row justify-start items-center">
-          <p className="text-white font-bold text-xl  m-[10px] animate-fadeIn font-edu">
+          <p className="text-white font-bold text-xl  m-[10px] animate-fadeIn font-openSans">
             Languages
           </p>
           <p className="text-white  m-[10px] animate-fadeIn">-</p>
           {lang.map((languages, index) => (
             <p
               key={index}
-              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-edu"
+              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
             >
               {languages.title}
             </p>
           ))}
         </div>
         <div className="flex flex-row  justify-start items-center">
-          <p className="text-white font-bold text-xl  m-[10px] animate-fadeIn font-edu">
+          <p className="text-white font-bold text-xl  m-[10px] animate-fadeIn font-openSans">
             Frameworks
           </p>
           <p className="text-white  m-[10px] animate-fadeIn">-</p>
           {tech.map((framework, index) => (
             <p
               key={index}
-              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-edu"
+              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
             >
               {framework.title}
             </p>
           ))}
         </div>
         <div className="flex flex-row  justify-start items-center">
-          <p className="text-white font-bold text-xl  m-[10px] animate-fadeIn font-edu">
+          <p className="text-white font-bold text-xl  m-[10px] animate-fadeIn font-openSans">
             Design Tools
           </p>
           <p className="text-white  m-[10px] animate-fadeIn">-</p>
           {design.map((design, index) => (
             <p
               key={index}
-              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-edu"
+              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
             >
               {design.title}
             </p>
@@ -78,11 +78,11 @@ export default function Techskill() {
         </div>
       </div>
       <div className="flex lg:hidden flex-col justify-start items-center w-auto h-auto ">
-        <p className="text-white w-[60px] border-b-2 hover:border-[#54107c] duration-300 text-2xl m-[20px] font-edu">
+        <p className="text-white w-[60px] border-b-2 hover:border-[#54107c] duration-300 text-2xl m-[20px] font-openSans">
           Skills
         </p>
         <div className="flex flex-col justify-center items-center">
-          <p className="text-white font-bold text-sm md:text-md  m-[4px] animate-fadeIn font-edu">
+          <p className="text-white font-bold text-sm md:text-md  m-[4px] animate-fadeIn font-openSans">
             Languages
           </p>
 
@@ -91,7 +91,7 @@ export default function Techskill() {
               languages.id <= halfLang ? (
                 <p
                   key={index}
-                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-edu"
+                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
                 >
                   {languages.title}
                 </p>
@@ -103,7 +103,7 @@ export default function Techskill() {
               languages.id > halfLang ? (
                 <p
                   key={index}
-                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-edu"
+                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
                 >
                   {languages.title}
                 </p>
@@ -112,7 +112,7 @@ export default function Techskill() {
           </div>
         </div>
         <div className="flex flex-col  justify-center items-center">
-          <p className="text-white font-bold text-sm md:text-md  m-[4px] animate-fadeIn font-edu">
+          <p className="text-white font-bold text-sm md:text-md  m-[4px] animate-fadeIn font-openSans">
             Frameworks
           </p>
 
@@ -121,7 +121,7 @@ export default function Techskill() {
               tech.id <= halfTech ? (
                 <p
                   key={index}
-                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-edu"
+                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
                 >
                   {tech.title}
                 </p>
@@ -133,7 +133,7 @@ export default function Techskill() {
               tech.id > halfTech ? (
                 <p
                   key={index}
-                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-edu"
+                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
                 >
                   {tech.title}
                 </p>
@@ -142,13 +142,13 @@ export default function Techskill() {
           </div>
         </div>
         <div className="flex flex-col  justify-center items-center">
-          <p className="text-white font-bold text-sm md:text-md  m-[4px] animate-fadeIn font-edu">
+          <p className="text-white font-bold text-sm md:text-md  m-[4px] animate-fadeIn font-openSans">
             Design Tools
           </p>
           {design.map((design, index) => (
             <p
               key={index}
-              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-edu"
+              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
             >
               {design.title}
             </p>

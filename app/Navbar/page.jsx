@@ -20,28 +20,28 @@ export default function Navbar() {
         <Link
             href="#Techskill"
             passHref
-            className="text-white  font-edu hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
+            className="text-white  font-openSans hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
         >
         Skills
         </Link>
         <Link
             href="#Projects"
             passHref
-            className="text-white  font-edu hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
+            className="text-white  font-openSans hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
         >
         Projects
         </Link>
         <Link
             href="#Social"
             passHref
-            className="text-white  font-edu hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
+            className="text-white  font-openSans hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
         >
             Social
         </Link>
         <Link
             href="#Contact"
             passHref
-            className="text-white  font-edu hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
+            className="text-white  font-openSans hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
         >
             Contact
         </Link>
@@ -57,28 +57,28 @@ export default function Navbar() {
         <Link
             href="#Techskill"
             passHref
-            className="text-white  font-edu hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
+            className="text-white  font-openSans hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
         >
         Skills
         </Link>
         <Link
             href="#Projects"
             passHref
-            className="text-white  font-edu hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
+            className="text-white  font-openSans hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
         >
         Projects
         </Link>
         <Link
             href="#Social"
             passHref
-            className="text-white  font-edu hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
+            className="text-white  font-openSans hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
         >
             Social
         </Link>
         <Link
             href="#Contact"
             passHref
-            className="text-white  font-edu hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
+            className="text-white  font-openSans hover:text-[#7315ab]  duration-300 text:xl md:text-2xl m-[2px] lg:m-[20px]"
         >
             Contact
         </Link>

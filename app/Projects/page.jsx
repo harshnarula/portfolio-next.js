@@ -9,7 +9,7 @@ export default function Projects() {
       className="flex justify-center items-center flex-col lg:ml-[30px] py-[40px]  w-auto h-auto "
     >
       <div className="flex flex-row justify-center items-start w-auto border-b-2 border-white hover:border-[#54107c] duration-300 h-[40px]">
-        <h2 className="text:xl md:text-2xl text-[#dddddd] font-semibold font-edu">
+        <h2 className="text:xl md:text-2xl text-[#dddddd] font-semibold openSans">
           Projects Build
         </h2>
       </div>
@@ -28,21 +28,21 @@ export default function Projects() {
                     alt=""
                   />
                   <div className="flex flex-col ml-[20px]">
-                    <p className="flex w-auto h-[20px] text-white text-xl lg:text-2xl font-edu">
+                    <p className="flex w-auto h-[20px] text-white text-xl lg:text-2xl openSans">
                       {project.name}
                     </p>
-                    <p className="flex w-auto h-[20px] text-white text-sm mt-[10px] font-edu">
+                    <p className="flex w-auto h-[20px] text-white text-sm mt-[10px] openSans">
                       {project.category}
                     </p>
                   </div>
                 </div>
                 <div className="flex w-auto h-auto">
-                  <p className="text-xl text-white font-edu">
+                  <p className="text-xl text-white openSans">
                     {project.desc}
                   </p>
                 </div>
                 <div className="flex flex-row justify-between items-center">
-                  <div className="flex flex-col lg:flex-row w-auto h-auto mt-[20px] font-edu">
+                  <div className="flex flex-col lg:flex-row w-auto h-auto mt-[20px] openSans">
                       {project.used.map((tech, techIndex) => (
                           <p key={techIndex} className="text-white ml-[10px]">{tech}</p>
                         ))}
@@ -50,7 +50,7 @@ export default function Projects() {
                   <div className="flex w-auto h-auto mt-[20px]">
                     <a
                       href={project.link} target="_blank" rel="noopener noreferrer"
-                      className="text-white font-edu hover:text-[#7315ab] duration-300"
+                      className="text-white openSans hover:text-[#7315ab] duration-300"
                     >
                       View Source
                     </a>
@@ -76,21 +76,21 @@ export default function Projects() {
                     alt=""
                   />
                   <div className="flex flex-col ml-[20px]">
-                    <p className="flex w-auto h-[20px] text-white text-xl lg:text-2xl font-edu">
+                    <p className="flex w-auto h-[20px] text-white text-xl lg:text-2xl openSans">
                       {project.name}
                     </p>
-                    <p className="flex w-auto h-[20px] text-white text-sm mt-[10px] font-edu">
+                    <p className="flex w-auto h-[20px] text-white text-sm mt-[10px] openSans">
                       {project.category}
                     </p>
                   </div>
                 </div>
                 <div className="flex w-auto h-auto">
-                  <p className="text-xl text-white font-edu">
+                  <p className="text-xl text-white openSans">
                     {project.desc}
                   </p>
                 </div>
                 <div className="flex flex-row justify-between items-center">
-                  <div className="flex flex-col lg:flex-row w-auto h-auto mt-[20px] font-edu">
+                  <div className="flex flex-col lg:flex-row w-auto h-auto mt-[20px] openSans">
                       {project.used.map((tech, techIndex) => (
                           <p key={techIndex} className="text-white ml-[10px]">{tech}</p>
                         ))}
@@ -98,7 +98,7 @@ export default function Projects() {
                   <div className="flex w-auto h-auto mt-[20px]">
                     <a
                       href={project.link} target="_blank" rel="noopener noreferrer"
-                      className="text-white font-edu hover:text-[#7315ab] duration-300"
+                      className="text-white openSans hover:text-[#7315ab] duration-300"
                     >
                       View Source
                     </a>
@@ -122,30 +122,30 @@ export default function Projects() {
                   alt=""
                 />
                 <div className="flex flex-col ml-[8px]">
-                  <p className="flex w-auto h-auto text-white text-sm font-edu">
+                  <p className="flex w-auto h-auto text-white text-sm openSans">
                     {project.name}
                   </p>
-                  <p className="flex w-auto h-auto text-white text-sm mt-[2px] font-edu">
+                  <p className="flex w-auto h-auto text-white text-sm mt-[2px] openSans">
                     {project.category}
                   </p>
                 </div>
               </div>
               <div className="flex w-auto h-auto mt-[10px]">
-                <p className="text-sm text-white font-edu">
+                <p className="text-sm text-white openSans">
                   {project.desc}
                 </p>
               </div>
               <div className="flex flex-row justify-between items-center">
                 <div className="flex flex-col w-auto h-auto my-[20px]">
                 {project.used.map((tech, techIndex) => (
-                          <p key={techIndex} className="text-white text-sm font-edu">{tech}</p>
+                          <p key={techIndex} className="text-white text-sm openSans">{tech}</p>
                         ))}
                   
                 </div>
                 <div className="flex w-auto h-auto mt-[20px]">
                   <a
                     href={project.link} target="_blank" rel="noopener noreferrer"
-                    className="text-white text-sm font-edu hover:text-[#7315ab] duration-300"
+                    className="text-white text-sm openSans hover:text-[#7315ab] duration-300"
                   >
                     View Source
                   </a>

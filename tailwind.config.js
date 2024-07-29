@@ -17,6 +17,7 @@ module.exports = {
       fontFamily: {
         edu: ['"Edu AU VIC WA NT Hand"', 'sans-serif'],
         urbanist: ['Urbanist', 'sans-serif'],
+        openSans: ['"Open Sans"', 'sans-serif'],
       },
       keyframes: {
         slideIn: {
