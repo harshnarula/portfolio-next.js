@@ -10,10 +10,10 @@ export default function Main() {
       
       <div className="flex flex-col justify-center items-center w-screen h-auto my-[20px]">
         <p className="text-white text-lg lg:text-2xl font-bold animate-bounce font-edu">
-          Hello, I'm Harsh <span className="text-[#54107c]">Narula</span>
+         { `Hello,I'm Harsh`} <span className="text-[#54107c]">Narula</span>
         </p>
         <p className="text-white text-md lg:text-2xl animate-flip font-edu">
-          I'm a Full Stack<span className="text-[#7315ab]"> Web Developer</span>
+          {`I'm a Full Stack`}<span className="text-[#7315ab]"> Web Developer</span>
         </p>
       </div>
       <div className="hidden lg:flex flex-row justify-center items-start w-screen h-auto py-[10px] ">
