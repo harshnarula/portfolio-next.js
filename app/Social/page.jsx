@@ -137,14 +137,14 @@ export default function Social() {
             />
           </a>
         </div>
-        <div className="lg:hidden flex border-2 border-[#54107c] hover:bg-[#54107c] hover:text-white duration-300 w-[50px] h-[50px] justify-center items-center rounded-[32px] mt-[40px]  text-white">
+        <div className="lg:hidden flex border-2 border-[#0d6efd] hover:bg-[#0d6efd] hover:text-white duration-300 w-[50px] h-[50px] justify-center items-center rounded-[32px] mt-[40px]  text-white">
           <Link href="#Navbar" passHref className="rotate-180">
             V
           </Link>
         </div>
       </div>
       <div className = "flex justify-center items-center w-screen h-auto">
-        <div className="hidden lg:flex border-2 border-[#54107c] animate-bounce hover:bg-[#54107c] hover:text-white duration-300 w-[50px] h-[50px] justify-center items-center rounded-[32px] m-[15px]  text-white">
+        <div className="hidden lg:flex border-2 border-[#0d6efd] animate-bounce hover:bg-[#0d6efd] hover:text-white duration-300 w-[50px] h-[50px] justify-center items-center rounded-[32px] m-[15px]  text-white">
           <Link href="#Navbar" passHref className="rotate-180">
             V
           </Link>

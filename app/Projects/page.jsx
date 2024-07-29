@@ -8,7 +8,7 @@ export default function Projects() {
       id="Projects"
       className="flex justify-center items-center flex-col lg:ml-[30px] py-[40px]  w-auto h-auto "
     >
-      <div className="flex flex-row justify-center items-start w-auto border-b-2 border-white hover:border-[#54107c] duration-300 h-[40px]">
+      <div className="flex flex-row justify-center items-start w-auto border-b-2 border-white hover:border-[#0d6efd] duration-300 h-[40px]">
         <h2 className="text:xl md:text-2xl text-[#dddddd] font-semibold openSans">
           Projects Build
         </h2>
@@ -19,7 +19,7 @@ export default function Projects() {
             project.id <= half ? (
               <div
                 key={index}
-                className="flex flex-col w-[400px] lg:w-[600px] h-auto py-[10px] px-[30px] rounded-[8px] animate-slideIn transition duration-300 border-4 border-[#161618] hover:border-[#54107c] mt-[40px]"
+                className="flex flex-col w-[400px] lg:w-[600px] h-auto py-[10px] px-[30px] rounded-[8px] animate-slideIn transition duration-300 border-4 border-[#161618] hover:border-[#0d6efd] mt-[40px]"
               >
                 <div className="flex flex-row w-auto h-[100px] justify-start items-center">
                   <img
@@ -50,7 +50,7 @@ export default function Projects() {
                   <div className="flex w-auto h-auto mt-[20px]">
                     <a
                       href={project.link} target="_blank" rel="noopener noreferrer"
-                      className="text-white openSans hover:text-[#7315ab] duration-300"
+                      className="text-white openSans hover:text-[#0d6efd] duration-300"
                     >
                       View Source
                     </a>
@@ -67,7 +67,7 @@ export default function Projects() {
             project.id > half ? (
               <div
                 key={index}
-                className="flex flex-col w-[400px] lg:w-[600px] h-auto py-[10px] px-[30px] rounded-[8px] animate-slideIn transition duration-300 border-4 border-[#161618] hover:border-[#54107c] mt-[40px]"
+                className="flex flex-col w-[400px] lg:w-[600px] h-auto py-[10px] px-[30px] rounded-[8px] animate-slideIn transition duration-300 border-4 border-[#161618] hover:border-[#0d6efd] mt-[40px]"
               >
                 <div className="flex flex-row w-auto h-[100px] justify-start items-center">
                   <img
@@ -98,7 +98,7 @@ export default function Projects() {
                   <div className="flex w-auto h-auto mt-[20px]">
                     <a
                       href={project.link} target="_blank" rel="noopener noreferrer"
-                      className="text-white openSans hover:text-[#7315ab] duration-300"
+                      className="text-white openSans hover:text-[#0d6efd] duration-300"
                     >
                       View Source
                     </a>
@@ -114,7 +114,7 @@ export default function Projects() {
         <div class="grid grid-cols-1 sm:grid-cols-1 gap-4 ">
           
           {projects.map((project, index) =>
-              <div key = {index} className="flex flex-col w-[300px] h-auto py-[10px] px-[20px] rounded-[8px] animate-slideInFromRight transition duration-300 border-4 border-[#161618] hover:border-[#54107c] mt-[40px]">
+              <div key = {index} className="flex flex-col w-[300px] h-auto py-[10px] px-[20px] rounded-[8px] animate-slideInFromRight transition duration-300 border-4 border-[#161618] hover:border-[#0d6efd] mt-[40px]">
               <div className="flex flex-row w-auto h-[50px] justify-start items-center">
                 <img
                   className="flex w-[40px]  h-[40px] bg-[#cdb2b2] rounded-[8px]"
@@ -145,7 +145,7 @@ export default function Projects() {
                 <div className="flex w-auto h-auto mt-[20px]">
                   <a
                     href={project.link} target="_blank" rel="noopener noreferrer"
-                    className="text-white text-sm openSans hover:text-[#7315ab] duration-300"
+                    className="text-white text-sm openSans hover:text-[#0d6efd] duration-300"
                   >
                     View Source
                   </a>

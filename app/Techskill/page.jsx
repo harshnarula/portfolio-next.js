@@ -31,7 +31,7 @@ export default function Techskill() {
       className="flex flex-col lg:flex-row justify-center lg:justify-around items-center w-screen h-auto"
     >
       <div className="hidden lg:flex flex-col justify-start items-start w-auto h-[270px] ">
-        <p className="text-white w-[60px] border-b-2 hover:border-[#54107c] duration-300 text-2xl m-[20px] font-openSans">
+        <p className="text-white w-[60px] border-b-2 hover:border-[#0d6efd] duration-300 text-2xl m-[20px] font-openSans">
           Skills
         </p>
         <div className="flex flex-row justify-start items-center">
@@ -42,7 +42,7 @@ export default function Techskill() {
           {lang.map((languages, index) => (
             <p
               key={index}
-              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
+              className="text-[#0d6efd] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
             >
               {languages.title}
             </p>
@@ -56,7 +56,7 @@ export default function Techskill() {
           {tech.map((framework, index) => (
             <p
               key={index}
-              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
+              className="text-[#0d6efd] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
             >
               {framework.title}
             </p>
@@ -70,7 +70,7 @@ export default function Techskill() {
           {design.map((design, index) => (
             <p
               key={index}
-              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
+              className="text-[#0d6efd] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
             >
               {design.title}
             </p>
@@ -78,7 +78,7 @@ export default function Techskill() {
         </div>
       </div>
       <div className="flex lg:hidden flex-col justify-start items-center w-auto h-auto ">
-        <p className="text-white w-[60px] border-b-2 hover:border-[#54107c] duration-300 text-2xl m-[20px] font-openSans">
+        <p className="text-white w-[60px] border-b-2 hover:border-[#0d6efd] duration-300 text-2xl m-[20px] font-openSans">
           Skills
         </p>
         <div className="flex flex-col justify-center items-center">
@@ -91,7 +91,7 @@ export default function Techskill() {
               languages.id <= halfLang ? (
                 <p
                   key={index}
-                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
+                  className="text-[#0d6efd] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
                 >
                   {languages.title}
                 </p>
@@ -103,7 +103,7 @@ export default function Techskill() {
               languages.id > halfLang ? (
                 <p
                   key={index}
-                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
+                  className="text-[#0d6efd] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
                 >
                   {languages.title}
                 </p>
@@ -121,7 +121,7 @@ export default function Techskill() {
               tech.id <= halfTech ? (
                 <p
                   key={index}
-                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
+                  className="text-[#0d6efd] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
                 >
                   {tech.title}
                 </p>
@@ -133,7 +133,7 @@ export default function Techskill() {
               tech.id > halfTech ? (
                 <p
                   key={index}
-                  className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
+                  className="text-[#0d6efd] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
                 >
                   {tech.title}
                 </p>
@@ -148,14 +148,14 @@ export default function Techskill() {
           {design.map((design, index) => (
             <p
               key={index}
-              className="text-[#7315ab] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
+              className="text-[#0d6efd] text-xl  m-[10px] animate-slideIn hover:text-white duration-300 hover:cursor-default font-openSans"
             >
               {design.title}
             </p>
           ))}
         </div>
       </div>
-      <div className="hidden lg:flex justify-center items-end w-[300px] h-[270px] rounded-x-[60px] m-[10px] lg:m-[0px]  rounded-b-[60px] border-x-4 border-[#54107c] border-b-4">
+      <div className="hidden lg:flex justify-center items-end w-[300px] h-[270px] rounded-x-[60px] m-[10px] lg:m-[0px]  rounded-b-[60px] border-x-4 border-[#0d6efd] border-b-4">
         <div className="flex flex-col">
           {div1 ? (
             <div className="flex flex-row">
@@ -250,7 +250,7 @@ export default function Techskill() {
           </div>
         </div>
       </div>
-      <div className="flex lg:hidden justify-center items-end w-[200px] h-[270px] rounded-x-[20px] m-[10px] lg:m-[0px]  rounded-b-[20px] border-x-4 border-[#54107c] border-b-4">
+      <div className="flex lg:hidden justify-center items-end w-[200px] h-[270px] rounded-x-[20px] m-[10px] lg:m-[0px]  rounded-b-[20px] border-x-4 border-[#0d6efd] border-b-4">
         <div className="flex flex-col">
           {div1 ? (
             <div className="flex flex-row">
