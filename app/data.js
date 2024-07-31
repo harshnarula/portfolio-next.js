@@ -149,3 +149,26 @@ export const main = [
 	
 ]
 
+export const navlinks = [
+	{
+		id: 1,
+		name: "Skills",
+		href: "#Techskill"
+	},
+	{
+		id: 2,
+		name: "Projects",
+		href: "#Projects"
+	},
+	{
+		id: 3,
+		name: "Social",
+		href: "#Social"
+	},
+	{
+		id: 4,
+		name: "Contact",
+		href: "#Contact"
+	}
+]
+
