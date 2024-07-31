@@ -75,21 +75,18 @@ export default function Social() {
           </a>
           <a
             ref={refGmail}
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=harshnarula01@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px] ${
               isVisibleGmail ? "animate-slideRoll" : "opacity-0"
-            }`}
+            }`}      
           >
-            <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=harshnarula01@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
               <img
                 src="https://img.icons8.com/fluent/30/000000/gmail-new.png"
                 className="flex w-[50px] h-[50px] rounded-[30px]"
                 alt="Gmail"
               />
-            </a>
           </a>
           <a
             ref={refTwitter}

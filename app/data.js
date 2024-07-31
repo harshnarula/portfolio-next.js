@@ -1,4 +1,8 @@
-import { FaAudioDescription } from "react-icons/fa6";
+
+import { CgWebsite } from "react-icons/cg";
+import { FaDatabase } from "react-icons/fa6";
+import { SiGooglecontaineroptimizedos } from "react-icons/si";
+import { SiThealgorithms } from "react-icons/si";
 
 export const projects = [
 
@@ -111,5 +115,37 @@ export const design = [
 		icon: "https://img.icons8.com/color/40/000000/figma.png",
 		title: "FIGMA",
 	},
+]
+
+export const main = [
+	{
+		id: 1,
+		name: "Web Development",
+		desc: "Capable of creating full-stack web applications with fast, dynamic, and interactive user interfaces built on a scalable back-end",
+		icon: <CgWebsite className="bg-[#0d6efd]  rounded-lg text-white w-[60px] h-[60px] p-[5px] m-[5px]" />,
+		mobileIcon: <CgWebsite className="bg-[#0d6efd]  rounded-lg text-white w-[40px] h-[40px]  p-[5px] m-[5px]" />
+	},
+	{
+		id: 2,
+		name: "Database Management",
+		desc: "Able to convert real-world entities into database models and manage them",
+		icon: <FaDatabase className="bg-[#0d6efd]  rounded-lg text-white w-[60px] h-[60px] p-[5px] m-[5px]" />,
+		mobileIcon: <FaDatabase className="bg-[#0d6efd]  rounded-lg text-white w-[40px] h-[40px]  p-[5px] m-[5px]" />
+	},
+	{
+		id: 3,
+		name: "Logic & Algorithm",
+		desc: "Proficient in developing efficient logic and algorithms to solve complex problems, ensuring optimal performance and reliability across applications.",
+		icon: <SiThealgorithms className="bg-[#0d6efd]  rounded-lg text-white w-[60px] h-[60px] p-[5px] m-[5px]" />,
+		mobileIcon: <SiThealgorithms className="bg-[#0d6efd]  rounded-lg text-white w-[40px] h-[40px]  p-[5px] m-[5px]" />
+	},
+	{
+		id: 4,
+		name: "Code Optimization",
+		desc: "Expert in optimizing code for high-performance software solutions.",
+		icon: <SiGooglecontaineroptimizedos className="bg-[#0d6efd]  rounded-lg text-white w-[60px] h-[60px]  p-[5px] m-[5px]" />,
+		mobileIcon: <SiGooglecontaineroptimizedos className="bg-[#0d6efd]  rounded-lg text-white w-[40px] h-[40px]  p-[5px] m-[5px]" />
+	}
+	
 ]
 
