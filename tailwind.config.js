@@ -1,3 +1,5 @@
+const { transform } = require('next/dist/build/swc');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -76,8 +78,30 @@ module.exports = {
           '40%': { transform: 'translateY(-30px)' },
           '60%': { transform: 'translateY(-15px)' },
         },
+
+        popIn: {
+          '0%' : { opacity: "0", transform: "translateY(-4rem) scale(.8)"},
+          '100%': { opacity: "1", transform: "none" }
+        },
+        loading: {
+          '0%, 100%': { 
+            width: "24px", 
+            height: "24px",
+            transform: "translateY(0px)" 
+          },
+          '50%': { 
+            width: "20px", 
+            height: "34px", 
+            transform: "translateY(-20px)" 
+          },
+        }
       },
       animation: {
+        loading1: 'loading 0.9s ease-in-out infinite 0.1s',
+        loading2: 'loading 0.9s ease-in-out infinite 0.3s',
+        loading3: 'loading 0.9s ease-in-out infinite 0.5s',
+        loading4: 'loading 0.9s ease-in-out infinite 0.7s',
+        popIn: 'popIn .6s cubic-bezier(0, .9, .3, 1.2) forwards',
         slideIn: 'slideIn 1s ease-out forwards',
         slideInRight: 'slideInRight 1s ease-out',
         slideUp: 'slideUp 1s ease-out forwards',

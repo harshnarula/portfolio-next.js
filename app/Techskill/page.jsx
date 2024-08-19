@@ -31,7 +31,7 @@ export default function Techskill() {
       className="flex flex-col lg:flex-row justify-center lg:justify-around items-center w-screen h-auto"
     >
       <div className="hidden lg:flex flex-col justify-start items-start w-auto h-[270px] ">
-        <p className="text-white w-[60px] border-b-2 hover:border-[#0d6efd] duration-300 text-2xl m-[20px] font-openSans">
+        <p className="text-white w-[60px] border-b-2  hover:border-[#0d6efd] duration-300 text-2xl m-[20px] font-openSans">
           Skills
         </p>
         <div className="flex flex-row justify-start items-center">
