@@ -5,34 +5,10 @@ import { useState, useEffect } from "react";
 import useIntersectionObserver from "../hooks/useIntersectionObserver"; // Adjust the path as needed
 
 export default function Social() {
-  const [social, setSocial] = useState({
-    linkedIn: false,
-    github: false,
-    twitter: false,
-    gmail: false,
-    instagram: false,
-  });
 
-  const handleLinkedIn = () => {
-    setSocial((prevState) => ({
-      ...prevState,
-      linkedIn: !prevState.linkedIn,
-      github: false,
-      twitter: false,
-      gmail: false,
-      instagram: false,
-    }));
-  };
-
-  useEffect(() => {
-    setSocial({
-      instagram: false,
-      linkedIn: false,
-      github: false,
-      twitter: false,
-      gmail: false,
-    });
-  }, []);
+  const copy = () => {
+    navigator.clipboard.writeText("harshnarula01@gmail.com")
+  }
 
   // Using Intersection Observer for animations
   const [refInstagram, isVisibleInstagram] = useIntersectionObserver({
@@ -63,13 +39,13 @@ export default function Social() {
             href="https://www.instagram.com/decaitor/"
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px] ${
+            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px]  ${
               isVisibleInstagram ? "animate-slideRoll" : "opacity-0"
             }`}
           >
             <img
               src="https://img.icons8.com/fluent/30/000000/instagram-new.png"
-              className="flex w-[50px] h-[50px] rounded-[30px]"
+              className="w-full h-full object-contain rounded-full"
               alt="Instagram"
             />
           </a>
@@ -78,14 +54,15 @@ export default function Social() {
             href="https://mail.google.com/mail/?view=cm&fs=1&to=harshnarula01@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px] ${
+            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px]  ${
               isVisibleGmail ? "animate-slideRoll" : "opacity-0"
             }`}      
           >
               <img
                 src="https://img.icons8.com/fluent/30/000000/gmail-new.png"
-                className="flex w-[50px] h-[50px] rounded-[30px]"
+                className="w-full h-full object-contain rounded-full"
                 alt="Gmail"
+                onClick={copy}
               />
           </a>
           <a
@@ -93,13 +70,13 @@ export default function Social() {
             href="https://twitter.com/HarshNa89766122"
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px] ${
+            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px]  ${
               isVisibleTwitter ? "animate-slideRoll" : "opacity-0"
             }`}
           >
             <img
               src="https://img.icons8.com/fluent/30/000000/twitter.png"
-              className="flex w-[50px] h-[50px] rounded-[30px]"
+              className="w-full h-full object-contain rounded-full"
               alt="Twitter"
             />
           </a>
@@ -108,13 +85,13 @@ export default function Social() {
             href="https://github.com/harshnarula"
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px] ${
+            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px]  ${
               isVisibleGithub ? "animate-slideRoll" : "opacity-0"
             }`}
           >
             <img
               src="https://img.icons8.com/fluent/30/000000/github.png"
-              className="flex w-[50px] h-[50px] rounded-[30px]"
+              className="w-full h-full object-contain rounded-full"
               alt="GitHub"
             />
           </a>
@@ -123,25 +100,25 @@ export default function Social() {
             href="https://www.linkedin.com/in/harsh-narula-597b95314/"
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px] ${
+            className={`flex justify-center items-center ml-[10px] w-[50px] h-[50px]  ${
               isVisibleLinkedIn ? "animate-slideRoll" : "opacity-0"
             }`}
           >
             <img
               src="https://img.icons8.com/fluent/30/000000/linkedin.png"
-              className="flex w-[50px] h-[50px] rounded-[30px]"
+              className="w-full h-full object-contain rounded-full"
               alt="LinkedIn"
             />
           </a>
         </div>
-        <div className="lg:hidden flex border-2 border-[#0d6efd] hover:bg-[#0d6efd] hover:text-white duration-300 w-[50px] h-[50px] justify-center items-center rounded-[32px] mt-[40px]  text-white">
+        <div className="lg:hidden flex border-2 border-[#0d6efd] hover:bg-[#0d6efd] hover:text-white duration-300 w-[50px] h-[50px]  justify-center items-center rounded-[32px] mt-[40px]  text-white">
           <Link href="#Navbar" passHref className="rotate-180">
             V
           </Link>
         </div>
       </div>
       <div className = "flex justify-center items-center w-screen h-auto">
-        <div className="hidden lg:flex border-2 border-[#0d6efd] animate-bounce hover:bg-[#0d6efd] hover:text-white duration-300 w-[50px] h-[50px] justify-center items-center rounded-[32px] m-[15px]  text-white">
+        <div className="hidden lg:flex border-2 border-[#0d6efd] animate-bounce hover:bg-[#0d6efd] hover:text-white duration-300 w-[50px] h-[50px]  justify-center items-center rounded-[32px] m-[15px]  text-white">
           <Link href="#Navbar" passHref className="rotate-180">
             V
           </Link>
