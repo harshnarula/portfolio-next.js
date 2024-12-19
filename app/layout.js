@@ -10,8 +10,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className = "background">
+    <html lang="en" className="background">
       <head>
+        {/* Google site verification meta tag */}
+        <meta
+          name="google-site-verification"
+          content="rHKKu_lZ5lHo9Sfe4ETV8QfxRIVIAw8JWWCpsTSJhM4"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
